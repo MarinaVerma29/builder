@@ -1,13 +1,13 @@
 package in.verma.builderapp._main;
-import in.verma.builderapp.model.User;
 
-import java.util.ArrayList;
+import in.verma.builderapp.model.entity.User;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<User.Builder> list = new ArrayList<>();
-        for(int i=1;i<=20;i++){
-            list.add(new User.Builder());
-        }
+//        ArrayList<User> list = new ArrayList<>();
+//        for(int i=0;i<20;i++){
+//            list.add(new User());
+//        }
+        User user = User.newBuilder().setId(856436758L).setLogin()
     }
 }
